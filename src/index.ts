@@ -3,10 +3,10 @@ import {NumbersCollection} from './NumbersCollection';
 import {CharactersCollection} from './CharactersCollection';
 
 const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
-const charactersCollection = new CharactersCollection('luke');
+const charactersCollection = new CharactersCollection('jnwegEQWfnn');
 
-const sorter = new Sorter(charactersCollection);
+numbersCollection.sort();
+charactersCollection.sort();
 
-sorter.sort();
-
+console.log(numbersCollection.data);
 console.log(charactersCollection.data);
